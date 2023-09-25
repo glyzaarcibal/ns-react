@@ -1,1 +1,1 @@
-# ns-react
+# ns-react/frontend
