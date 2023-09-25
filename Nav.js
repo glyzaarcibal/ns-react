@@ -93,9 +93,14 @@ const Nav = () => {
             <li className="nav-item">
                 <Link className="nav-link" to="/create"> Create </Link>
             </li>
-          
-            <Button variant="outlined" onClick={handleClickOpen}>Login</Button>
             </ul>
+            <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+              <Button variant="outlined" onClick={handleClickOpen}>
+                Login
+              </Button>
+            </li>
+          </ul>
             </div>
 
       </nav>
